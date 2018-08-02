@@ -18,3 +18,7 @@ Ever request in the same domain (AJAX, images, stylesheets, scripts...)
 why is it important tha tusers cannot modify their cookies? 
 
 The cookies contain sensative information
+
+What is event delegation? 
+
+The idea that if a lot of elements are handled in a similar way, instead of assigning an even handler to each of them, we put a single handler on their commonon ancestor.
