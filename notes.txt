@@ -4,3 +4,17 @@ A problem has the optimal subsructure proprty if an optimal solution can be obta
 
 A shortest path problem could have one: 
 If x is on the shortest path from a to b, Then the shortest path from a to b would be the sum of the shortest path from a to x and the shortest path from x to b.
+
+what is the differencebwteen local storage and session storage? 
+
+sessionStorage only persist during the browser session (stops when window/tab is closed. but persists on reloads).
+local storage persista afterward 
+both storages can be deleted by user
+
+when are cookies sent to the server? 
+
+Ever request in the same domain (AJAX, images, stylesheets, scripts...)
+
+why is it important tha tusers cannot modify their cookies? 
+
+The cookies contain sensative information
