@@ -1,0 +1,6 @@
+what is an optimal substructure? When might a problem have one? 
+
+A problem has the optimal subsructure proprty if an optimal solution can be obtained using the optimal solution of subproblems. 
+
+A shortest path problem could have one: 
+If x is on the shortest path from a to b, Then the shortest path from a to b would be the sum of the shortest path from a to x and the shortest path from x to b.
